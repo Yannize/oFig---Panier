@@ -106,7 +106,7 @@ table input:focus {
 table button {
   outline: none;
   border: none;
-  background-color: white;
+  background-color: transparent;
   color: crimson;
   text-decoration: underline;
   cursor: pointer;
@@ -126,6 +126,10 @@ thead {
 
 thead th {
   padding: 10px 0;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: rgb(245, 245, 245);
 }
 
 tbody td {
